@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efcfc5749c87fc341b7eca4f962f60b3, type: 3}
+  m_Name: PotionSmall
+  m_EditorClassIdentifier: 
+  canSell: 1
+  sellPrice: 3
+  itemID: PotionSmall
+  itemName: Small Potion
+  icon: {fileID: 21300000, guid: 5a2b1757a8a7ff146987cd780788ebd9, type: 3}
+  type: 1
+  itemType: 1
+  stackable: 1
+  maxStack: 10
+  isHealItem: 1
+  healAmount: 20
+  healDuration: 4
+  description: 

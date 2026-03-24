@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37a5a6cd738645369231540dd8f9631f, type: 3}
+  m_Name: Shield_0
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 21300000, guid: 664f2948e5a796d42b0bc859795d7576, type: 3}
+  <Name>k__BackingField: Wooden Shield
+  <Description>k__BackingField: Just a shield made of wood
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: 3a007a4c48fd7f2469b7179628ddd92a, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 7871849079540809737
+  - rid: 7871849079540809738
+  - rid: 7871849079540809739
+  - rid: 7871849079540809740
+  - rid: 7871849079540809745
+  - rid: 7871849079540809746
+  references:
+    version: 2
+    RefIds:
+    - rid: 7871849079540809737
+      type: {class: WeaponSpriteData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 0
+            <Sprites>k__BackingField:
+            - {fileID: 1093005464, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -1027950052, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 2146137030, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -724868820, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1986282652, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -287093859, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -677240851, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -537574217, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+          - <Phase>k__BackingField: 1
+            <Sprites>k__BackingField:
+            - {fileID: -537574217, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+          - <Phase>k__BackingField: 3
+            <Sprites>k__BackingField:
+            - {fileID: -537574217, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -677240851, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -287093859, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1986282652, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1250563212, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -906801992, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -11620472, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -900015125, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+          - <Phase>k__BackingField: 4
+            <Sprites>k__BackingField:
+            - {fileID: 1342828203, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -1304139185, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -1838568429, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1379696010, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1235099426, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+          - <Phase>k__BackingField: 5
+            <Sprites>k__BackingField:
+            - {fileID: 1184718618, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 336100087, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1763158454, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: -1064747220, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 979736991, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+    - rid: 7871849079540809738
+      type: {class: InputHoldData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: InputHoldData
+    - rid: 7871849079540809739
+      type: {class: BlockData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: BlockData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <BlockDirectionInformation>k__BackingField:
+          - MinAngle: -90
+            MaxAngle: 90
+            DamageAbsorption: 0.75
+            KnockBackAbsorption: 0.5
+            PoiseDamageAbsorption: 0.75
+          <BlockWindowStart>k__BackingField:
+            <Duration>k__BackingField: 0.2666667
+            <Phase>k__BackingField: 0
+          <BlockWindowEnd>k__BackingField:
+            <Duration>k__BackingField: 0
+            <Phase>k__BackingField: 3
+          <Particles>k__BackingField: {fileID: 6240072112886026631, guid: da1a06cdf498fcd41a72122bec93281f, type: 3}
+          <ParticlesOffset>k__BackingField: {x: 0.75, y: -0.25}
+    - rid: 7871849079540809740
+      type: {class: MovementData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 0
+    - rid: 7871849079540809745
+      type: {class: ParryData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ParryData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <ParryDirectionalInformation>k__BackingField:
+          - MinAngle: -90
+            MaxAngle: 90
+            DamageAbsorption: 1
+            KnockBackAbsorption: 0.85
+            PoiseDamageAbsorption: 1
+          <ParryWindowStart>k__BackingField:
+            <Duration>k__BackingField: 0
+            <Phase>k__BackingField: 0
+          <ParryWindowEnd>k__BackingField:
+            <Duration>k__BackingField: 0.25
+            <Phase>k__BackingField: 0
+          <Particles>k__BackingField: {fileID: 6240072112886026631, guid: da1a06cdf498fcd41a72122bec93281f, type: 3}
+          <ParticlesOffset>k__BackingField: {x: 0.75, y: -0.25}
+    - rid: 7871849079540809746
+      type: {class: KnockBackOnParryData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackOnParryData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 1, y: 0}
+          <Strength>k__BackingField: 10

@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37a5a6cd738645369231540dd8f9631f, type: 3}
+  m_Name: Bow_1
+  m_EditorClassIdentifier: 
+  <Icon>k__BackingField: {fileID: 21300000, guid: 82d006a38f3a4374bb863d1b799d063f, type: 3}
+  <Name>k__BackingField: Wooden Bow
+  <Description>k__BackingField: A basic wooden bow that fires iron tipped wooden
+    arrows
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: bfc5d3b321339464bbd6c65c4b408ef9, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 7871849079540809728
+  - rid: 7871849079540809729
+  - rid: 7871849079540809730
+  - rid: 7871849079540809731
+  - rid: 7871849079540809732
+  - rid: 7871849079540809733
+  - rid: 7871849079540809734
+  references:
+    version: 2
+    RefIds:
+    - rid: 7871849079540809728
+      type: {class: WeaponSpriteData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 0
+            <Sprites>k__BackingField:
+            - {fileID: -304329939, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1105813960, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1875782289, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+          - <Phase>k__BackingField: 1
+            <Sprites>k__BackingField:
+            - {fileID: 1875782289, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 1533077169, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1533077169, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1533077169, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+            - {fileID: 1533077169, guid: 11a02222386a3dc4f8a1cca3d8172075, type: 3}
+    - rid: 7871849079540809729
+      type: {class: InputHoldData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: InputHoldData
+    - rid: 7871849079540809730
+      type: {class: ProjectileSpawnerData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ProjectileSpawnerData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <SpawnInfos>k__BackingField:
+          - <Offset>k__BackingField: {x: 1.24, y: 1.85}
+            <Direction>k__BackingField: {x: 1, y: 0}
+            <ProjectilePrefab>k__BackingField: {fileID: 1775009464070235410, guid: fae094a78a611b34193246e4ec7ed322, type: 3}
+            <DamageData>k__BackingField:
+              <Amount>k__BackingField: 600
+            <KnockBackData>k__BackingField:
+              Strength: 10
+              Angle: {x: 1, y: 1}
+            <PoiseDamageData>k__BackingField:
+              <Amount>k__BackingField: 5
+            <SpriteDataPackage>k__BackingField:
+              <Sprite>k__BackingField: {fileID: 1926405554, guid: 57359a7ce00e85147a0272059d89998c, type: 3}
+    - rid: 7871849079540809731
+      type: {class: MovementData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 0, y: 0}
+          <Velocity>k__BackingField: 0
+    - rid: 7871849079540809732
+      type: {class: OptionalSpriteData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: OptionalSpriteData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <UseOptionalSprite>k__BackingField: 0
+          <Sprite>k__BackingField: {fileID: 1926405554, guid: 57359a7ce00e85147a0272059d89998c, type: 3}
+    - rid: 7871849079540809733
+      type: {class: DrawData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DrawData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <DrawCurve>k__BackingField:
+            serializedVersion: 2
+            m_Curve:
+            - serializedVersion: 3
+              time: 0
+              value: 0
+              inSlope: 0
+              outSlope: 0
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            - serializedVersion: 3
+              time: 1
+              value: 1
+              inSlope: 2
+              outSlope: 2
+              tangentMode: 0
+              weightedMode: 0
+              inWeight: 0
+              outWeight: 0
+            m_PreInfinity: 2
+            m_PostInfinity: 2
+            m_RotationOrder: 4
+          <DrawTime>k__BackingField: 0.2666667
+    - rid: 7871849079540809734
+      type: {class: DrawToProjectileData, ns: Saus.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DrawToProjectileData
